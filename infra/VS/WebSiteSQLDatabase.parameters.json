@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "cph23-plan"
+    },
+    "administratorLogin": {
+      "value": "sqladmin"
+    },
+    "databaseName": {
+      "value": "demodb"
+    },
+    "administratorLoginPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/8d578a94-4be5-437d-9eaa-e507a672fcb2/resourceGroups/ptc-cus-testapp-rg/providers/Microsoft.KeyVault/vaults/myDadAppvault"
+        },
+        "secretName": "sqlpassword"
+      }
+    }
+  }
+}
