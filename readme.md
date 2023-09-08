@@ -2,12 +2,12 @@
 
 ## Sessions
 
-### Permit To Cloud - Land with Confidence in Azure
+### Permit To Cloud - Land with Confidence in Azure : [Slides](docs/CPH23-PermitToCloud.pdf)
 
 An application is an idea that has code, data and infrastructure, and choosing whether to build a conveyor belt or to put up guard rails along the path is important in maintaining velocity to the cloud. In this session, we explore the tools available in Azure for creating and enforcing governance policy, standards and infrastructure, including Azure resource template technologies and Bicep, Azure blueprints, as well as DevOps processes including GitHub Actions that you can use to ensure your cloud journey is predictable, secure and compliant. We’ll see how the tools work and share best practices for maturing your cloud journey.
 
 
-### IaC Bake Off - ARM vs Bicep vs Terraform vs Pulumi
+### IaC Bake Off - ARM vs Bicep vs Terraform vs Pulumi : [Slides](docs/CPH23-IaC-Bakeoff.pdf)
 
 Infrastructure as Code comes in many flavors, and the Azure Cloud's default deployment templates work with Azure Resource Manager (ARM) to define and deploy infrastructure. Working with the JSON format of ARM can be challenging, but Microsoft has introduced a language processor called Bicep which generates ARM as output. At the same time there are other options, including scripting tools, Terraform, Pulumi, Ansible and others. In this session we'll compare creating infrastructure using ARM, Terraform and Bicep, and compare pros and cons to each.
 
